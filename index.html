@@ -13,6 +13,8 @@
     />
 
     <link rel="stylesheet" href="main.css" />
+    <script defer src="main.js"></script>
+
     <title>Frontend Mentor | Interactive rating component</title>
   </head>
   <body>
@@ -29,14 +31,20 @@
             feedback is appreciated to help us improve our offering!
           </p>
           <div class="buttons">
-            <button class="rating-button" id="rating-button-1">1</button>
+            <button
+              class="rating-button"
+              id="rating-button-1"
+              onclick="selectRatingButton1()"
+            >
+              1
+            </button>
             <button class="rating-button" id="rating-button-2">2</button>
             <button class="rating-button" id="rating-button-3">3</button>
             <button class="rating-button" id="rating-button-4">4</button>
             <button class="rating-button" id="rating-button-5">5</button>
           </div>
 
-          <button class="submit-button">SUBMIT</button>
+          <button class="submit-button" id="submit-button">SUBMIT</button>
         </div>
       </div>
       <!-- Rating state end -->
