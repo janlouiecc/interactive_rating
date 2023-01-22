@@ -6,6 +6,10 @@ body {
   font-family: 'Overpass', sans-serif;
 }
 
+#thank-you-state {
+  display: none;
+}
+
 .card {
   background-color: hsl(213, 19%, 18%);
   position: absolute;

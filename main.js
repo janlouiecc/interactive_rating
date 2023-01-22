@@ -21,6 +21,7 @@ let selected = 0
 document.getElementById('submit-button').addEventListener('click', () => {
   if (selected === 0) return
   ratingState.style.display = 'none'
+  thankYouState.style.display = 'block'
 })
 
 const undoSelection = () => {
