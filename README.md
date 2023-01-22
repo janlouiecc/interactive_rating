@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop View](images\desktop-view-screenshot.png)
-![Mobile View](images\mobile-view-screenshot.png)
+![Desktop View](https://raw.githubusercontent.com/janlouiecc/interactive_rating/main/images/desktop-view-screenshot.png)
+![Mobile View](https://raw.githubusercontent.com/janlouiecc/interactive_rating/main/images/mobile-view-screenshot.png)
 
 ### Links
 
